@@ -9,6 +9,13 @@ size = Vector2(150, 32)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3"]
 size = Vector2(600, 32)
 
+[ext_resource type="Script" path="res://scripts/level_manager.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://c0jdg7qjhr8" path="res://scenes/enemies/walker.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dtpykjc4r7gxe" path="res://scenes/enemies/flyer.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://b7kdlyv3vw5t" path="res://scenes/items/coin.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://d0xo84cmxvuhp" path="res://scenes/player/player.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://d4sldjhylu" path="res://scenes/ui/hud.tscn" id="6"]
+
 [node name="Level_2" type="Node2D"]
 script = ExtResource("1")
 
