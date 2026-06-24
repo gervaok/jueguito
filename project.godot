@@ -7,9 +7,12 @@ config_version=5
 [application]
 config/name="Platformer Game"
 config/description="A professional platformer game made with Godot 4.x"
-run/main_scene="res://scenes/levels/level_1.tscn"
+run/main_scene="res://scenes/ui/menu.tscn"
 config/features=PackedStringArray("4.1")
 config/icon="res://assets/icon.svg"
+
+[autoload]
+GameManager="*res://scripts/game_manager.gd"
 
 [display]
 window/size/viewport_width=1280
