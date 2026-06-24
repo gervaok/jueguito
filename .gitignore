@@ -1,0 +1,25 @@
+# Godot specific ignores
+.godot/
+*.gdobj
+*.gdobj.json
+*.json
+*.tres
+*.tscn
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+*.import/
+export/
+
+# Backups
+*.bak
+*~
